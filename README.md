@@ -1,2 +1,1 @@
-# imports
-The Harambee Imports web site
+# Harambee Imports
