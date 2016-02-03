@@ -49,3 +49,36 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
   text-align: center;
   color: rgba(115, 44, 10, 0.78);
 }
+/*product images on product page*/
+body#products .product-box img{
+  height: 200px;
+  width: 200px;
+}
+
+body#products .product-box .product-image {
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+}
+
+body#products .product-box #product-image-coasters {
+  background-image: url(images/products/placemat.Coasters.jpg);
+  background-position-x: -32px;
+}
+
+body#products .product-box h4{
+  text-align: center;
+}
+
+body#products .product-box{
+  float: left;
+  padding: 10px;
+}
+body#products .product-box .product-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body#products .product-box #pin-image {
+  background-image: url(images/products/hairBerett.Pin.jpg)
+}
