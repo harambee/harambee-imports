@@ -1,21 +1,42 @@
 nav {
   background-color: rgb(15, 15, 15);
 }
+
 nav ul li {
   display: inline-block;
   width:25%;
   padding: 10px;
-
 }
+
 nav ul{
   border-bottom: 1px solid #000;
 }
+
 nav ul li a {
   color: rgb(255, 255, 255);
 }
+
 nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
   color: #969696;
   text-decoration: none;
+}
+
+.innerBox{
+  background-color: rgb(255,255,200);
+  height: 500px;
+  width: 80%;
+  float: left;
+  border-radius: 25px;
+}
+
+.sideBar{
+  float: left;
+  width:175px;
+  height:500px;
+  padding: 25px;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+
 }
 
 /*#main-carousel .carousel-inner .item img {
