@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h1 class="page-title">Handmade Crafts - Product Line</h1>
+<div class="product-images product-info">
+  <div class="fotorama">
+    {% for image in site.static_files %}
+      {% assign image_path = "/images/products/" | append: page.name%}
+      {% if image.path contains image_path %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="product-description product-info">
+  <h3>{{ page.description }}</h3>
+  {{ content }}
+</div>
