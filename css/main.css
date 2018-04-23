@@ -347,7 +347,7 @@ a {
 }
 
 .hero {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1398834/students-laptops.jpg");
+  background-image: url("/images/students-laptops.jpg");
   height: 55em;
   text-align: center;
   position: relative;
@@ -396,15 +396,15 @@ a {
 }
 
 .info-box.coffee-club {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1398834/coffee-bag-illustration-2.jpg");
+  background-image: url("/images/coffee-bag-illustration.jpg");
 }
 
 .info-box.hand-made-crafts {
-  background-image: url("http://farm3.staticflickr.com/2834/9913911853_dac8655ccd_z.jpg");
+  background-image: url("/images/hand-made.jpg");
 }
 
 .info-box.mission {
-  background-image: url("http://www.clker.com/cliparts/1/d/b/2/1194984414417201019handshake_01.svg.hi.png");
+  background-image: url("/images/hand-shake.png");
 }
 
 .caption {
