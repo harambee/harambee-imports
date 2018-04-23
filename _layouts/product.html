@@ -7,7 +7,7 @@ layout: default
     {% for image in site.static_files %}
       {% assign image_path = "/images/products/" | append: page.name%}
       {% if image.path contains image_path %}
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        <img src="{{ image.path | relative_url }}" alt="image" />
       {% endif %}
     {% endfor %}
   </div>

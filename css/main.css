@@ -1,3 +1,5 @@
+---
+---
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -347,7 +349,7 @@ a {
 }
 
 .hero {
-  background-image: url("/images/students-laptops.jpg");
+  background-image: url({{ "/images/students-laptops.jpg" | relative_url }});
   height: 55em;
   text-align: center;
   position: relative;
@@ -396,15 +398,15 @@ a {
 }
 
 .info-box.coffee-club {
-  background-image: url("/images/coffee-bag-illustration.jpg");
+  background-image: url({{ "/images/coffee-bag-illustration.jpg" | relative_url }});
 }
 
 .info-box.hand-made-crafts {
-  background-image: url("/images/hand-made.jpg");
+  background-image: url({{ "/images/hand-made.jpg" | relative_url }});
 }
 
 .info-box.mission {
-  background-image: url("/images/hand-shake.png");
+  background-image: url({{ "/images/hand-shake.png" | relative_url }});
 }
 
 .caption {
