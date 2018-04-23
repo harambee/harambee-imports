@@ -1,91 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Harambee Imports</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="styles.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li>
-          <a href= "index.html">  Home </a>
-        </li><li>
-          <a href = "about.html"> About</a>
-        </li><li>
-          <a href = "products.html"> Products </a>
-        </li><li>
-        <a href = "contact.html">  Contact </a>
-        </li>
-      </ul>
-    </nav>
-    <h1 id="main-title">Harambee Imports</h1>
-<!-- Carousel! -->
-
-
-<div id="main-carousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <!--  Ability for it to slide -->
-    <li data-target="#main-carousel" data-slide-to="0" class="actives"></li>
-    <li data-target="#main-carousel" data-slide-to="1"></li>
-    <li data-target="#main-carousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-
-    <div class="item active">
-      <img src="images/classroom.jpg" alt="Kids Get Together To Make Products">
-
-      <div class="carousel-caption">
-        <h3>Children</h3>
-        <p> from 6th - 8th grade are making products for your satification and their education. Learn More on the About page.</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="images/HCSpagebanner.jpg" alt="Harambee!">
-
-      <div class="carousel-caption">
-        <p>Harambee means, "come togetheer and move it forward. You can make donations by contacting us. For contact info, see Contact page." </p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="images/teenagers.jpg" alt="Buy Products Made Genuinly Form Scratch">
-      <div class="carousel-caption">
-        <h3>Awesome Quality</h3>
-        <p>The products were made by kids and approved by experts. See our products to explore these projects.</p>
-      </div>
-    </div>
-
+---
+---
+<div class="hero">
+    <h1>Harambee Imports and coffee club</h1>
   </div>
+  <div class="info">
+    <div class="info-box coffee-club">
+      <a href="#">Coffee Club</a>
 
-  <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
-    <span class="icon-prev" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
-    <span class="icon-next" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    </div>
+
+    <div class="info-box mission">
+      <a href="#">Mission</a>
+    </div>
+    <div class="info-box hand-made-crafts">
+      <a href={{ "/products" | relative_url }}>Handmade Crafts</a>
+    </div>
+  </div>
+  <p class="caption">Harambee Imports is an extracurricular activity at Harambee Christian School for middle school students. Its goal is to train students in basic economic principles by running a business that earns money for the school.</p>
 </div>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
-</html>
